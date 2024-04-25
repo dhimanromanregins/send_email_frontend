@@ -88,7 +88,7 @@ function App() {
       setLoading(true);
 
       e.target.textContent = 'Sending...';
-      let api = 'http://192.168.1.44:8000/api/send-email/';
+      let api = 'http://52.151.192.152/api/send-email/';
       let response = await fetch(api, {
         method: 'POST',
         headers: {
